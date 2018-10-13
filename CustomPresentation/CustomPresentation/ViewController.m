@@ -26,7 +26,7 @@
 - (IBAction)presentAction:(UIButton *)sender {
     ViewControllerB *controller = [[ViewControllerB alloc]init];
     [self prepareOverlay:controller];
-    [self.navigationController presentViewController:controller animated:true completion:nil];
+    [self presentViewController:controller animated:true completion:nil];
 }
 
 - (void)prepareOverlay:(UIViewController*)viewController {
