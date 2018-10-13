@@ -28,7 +28,7 @@
     if (translation.x != 0 || translation.y != 0) {
         double angle = atan2(fabs(translation.x), translation.y);
         if (angle < M_PI / 8) {
-            [self.navigationController dismissViewControllerAnimated:true completion:nil];
+            [self dismissViewControllerAnimated:true completion:nil];
         }
     }
 }
