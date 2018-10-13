@@ -45,8 +45,8 @@
             toView.layer.cornerRadius = 10;
         } else {
             fromView.center = center;
-            toView.transform = CGAffineTransformScale(fromView.transform, 1, 1);
-            fromView.layer.cornerRadius = 0;
+            toView.transform = CGAffineTransformIdentity;
+            toView.layer.cornerRadius = 0;
         }
         
     } completion:^(BOOL finished) {
