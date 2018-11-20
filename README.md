@@ -1,5 +1,5 @@
 # CustomPresentation
-iOS Mail/Music app like Presentation animation. Written in Objective-C. Please watch demo
+iOS Mail/Music app like Presentation animation. Written in Objective-C.
 
 ![Demo](https://github.com/rajdhakate/CustomPresentation/blob/master/Presentation.gif)
 
